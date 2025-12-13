@@ -1,0 +1,14 @@
+apiVersion: networking.istio.io/v1beta1
+kind: VirtualService
+metadata:
+  name: backend-vs
+  namespace: demo
+spec:
+  hosts:
+    - backend.demo.svc.cluster.local
+  http:
+    - route:
+        - destination:
+            host: backend.demo.svc.cluster.local
+            subset: v2
+          weight: 100
