@@ -1,5 +1,8 @@
 # Demystifying Kubernetes & Istio — Phase 1 Demo
 [![Architected by Steven Lopez](https://img.shields.io/badge/Architected%20by-Steven%20Lopez-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/steve-lopez-b9941/)
+
+---
+
 This repository contains a **hands-on Kubernetes demo** designed to reinforce an accelerated learning presentation on Kubernetes and Istio.
 
 The goal is not to teach YAML in isolation, but to help engineers and architects **build a correct mental model** of how Kubernetes behaves before introducing service mesh complexity.
